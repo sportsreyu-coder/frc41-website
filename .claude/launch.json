@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frc41-website",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8420", "--directory", "/Users/reyu/Documents/GitHub/frc41-website"],
+      "port": 8420
+    }
+  ]
+}
