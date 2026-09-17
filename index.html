@@ -3,154 +3,312 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FRC Team 41</title>
-  <meta name="description" content="Official website of FRC Team 41 — a FIRST Robotics Competition team." />
+  <title>FRC Team 41 — FIRST Robotics Competition</title>
+  <meta name="description" content="Team 41 is a student-led FIRST Robotics Competition team designing, building, and programming a competition robot every season." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="images/team41-logo.png" />
 </head>
 <body>
 
   <header class="site-header">
-    <div class="container header-inner">
-      <a href="#" class="logo">FRC <span>41</span></a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="site-nav" id="siteNav">
-        <a href="#about">About</a>
-        <a href="#team">Team</a>
-        <a href="#sponsors">Sponsors</a>
-        <a href="#contact">Contact</a>
+    <div class="col header-inner">
+      <a href="index.html" class="wordmark">
+        <img src="images/team41-logo.png" alt="Team 41 logo" class="wordmark-logo" />
+        <span class="wordmark-name">FIRST Robotics Team 41</span>
+      </a>
+      <nav class="site-nav">
+        <a href="team.html" class="nav-link">The Team</a>
+        <a href="robots.html" class="nav-link">Past Robots</a>
+        <a href="sponsors.html" class="nav-link">Sponsorship</a>
+        <a href="parents-faq.html" class="nav-link">Parents FAQ</a>
+        <a href="wheat.html" class="nav-link">WHEAT</a>
+        <a href="sponsors.html" class="nav-sponsor">Sponsor Us</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <p class="eyebrow">FIRST Robotics Competition</p>
-        <h1>Building robots. Building futures.</h1>
-        <p class="hero-subtitle">
-          We're Team 41 — a student-led robotics team competing in FIRST Robotics Competition,
-          designing, building, and programming a competition robot from scratch every season.
-        </p>
-        <div class="hero-actions">
-          <a href="#about" class="btn btn-primary">Learn More</a>
-          <a href="#contact" class="btn btn-outline">Join the Team</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat">
-          <span class="stat-number">XX</span>
-          <span class="stat-label">Seasons Competing</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">XX</span>
-          <span class="stat-label">Team Members</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">XX</span>
-          <span class="stat-label">Awards Won</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">XX</span>
-          <span class="stat-label">Community Events</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container about-grid">
-        <div class="about-text">
-          <h2>Who We Are</h2>
-          <p>
-            Team 41 is a student-driven robotics team dedicated to inspiring young people to become
-            science and technology leaders. Every build season, we design, fabricate, and program a
-            robot to compete in the FIRST Robotics Competition (FRC), guided by the values of gracious
-            professionalism and coopertition.
-          </p>
-          <p>
-            Beyond competition, we're committed to STEM outreach in our community — mentoring younger
-            teams, hosting workshops, and sharing our passion for engineering with the next generation.
-          </p>
-        </div>
-        <div class="about-highlights">
-          <div class="highlight-card">
-            <h3>Mission</h3>
-            <p>To inspire students in science, technology, engineering, and math through hands-on robotics.</p>
-          </div>
-          <div class="highlight-card">
-            <h3>Values</h3>
-            <p>Gracious professionalism, teamwork, curiosity, and giving back to our community.</p>
+    <section id="top" class="hero">
+      <div class="col">
+        <p class="hero-eyebrow">FIRST Robotics Competition · Founded 1997</p>
+        <h1 class="hero-title">A student engineering program that ships a robot every spring.</h1>
+        <div class="hero-grid">
+          <p class="hero-lead">Every January a new game is announced. Six weeks later fifty students deliver a 120-pound machine they designed, machined, wired, and programmed themselves, then compete with it through April.</p>
+          <div>
+            <p class="hero-support">Sponsorship pays for the shop, the materials, and the travel. In return, our sponsors put their name on a machine seen by thousands of families, schools, and companies each season.</p>
+            <div class="btn-row">
+              <a href="sponsors.html" class="btn">Sponsorship information</a>
+              <a href="team.html" class="link-secondary">About the team</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="team" class="team">
-      <div class="container">
-        <h2>Our Team</h2>
-        <p class="section-subtitle">
-          We're made up of student engineers, programmers, strategists, and outreach leaders,
-          supported by dedicated mentors and coaches.
-        </p>
-        <div class="subteam-grid">
-          <div class="subteam-card">
-            <h3>Mechanical</h3>
-            <p>Designs and builds the physical robot, from drivetrain to game-piece mechanisms.</p>
+    <section style="padding: 0 0 84px;">
+      <div class="col">
+        <div class="image-well ratio-21-9"><img src="images/robots/2024-hero.jpg" alt="Team 41's 2024 robot, PLATO" loading="lazy" /></div>
+        <p class="image-caption">PLATO — 2024 CRESCENDO season.</p>
+      </div>
+    </section>
+
+    <section class="stat-band" style="padding: 0;">
+      <div class="col stat-grid">
+        <div>
+          <div class="stat-figure">28</div>
+          <div class="stat-label">Seasons competing</div>
+        </div>
+        <div>
+          <div class="stat-figure">50+</div>
+          <div class="stat-label">Student members</div>
+        </div>
+        <div>
+          <div class="stat-figure">8</div>
+          <div class="stat-label">World Championships</div>
+        </div>
+        <div>
+          <div class="stat-figure">6</div>
+          <div class="stat-label">Weeks per build</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="col section-head">
+        <div>
+          <div class="section-mark">I · The program</div>
+          <h2 class="section-title">Students make the engineering decisions. Mentors teach and review.</h2>
+        </div>
+        <div>
+          <p class="section-prose" style="margin-bottom: 16px;">Every decision that reaches the robot belongs to a student: the drivetrain architecture, the autonomous strategy, the budget that pays for it. Mentors from industry teach the tools, review the designs, and hold the safety line. They do not build the robot.</p>
+          <p class="section-prose" style="margin-bottom: 16px;">We compete under gracious professionalism, the FIRST principle that you lend a part to the team you are about to play. Off the field, students mentor younger teams and run workshops across our community.</p>
+          <a href="team.html" class="link-brass">Read more about the team</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsors" class="section-alt">
+      <div class="col">
+        <div class="section-head" style="margin-bottom: 52px;">
+          <div>
+            <div class="section-mark">II · Sponsorship</div>
+            <h2 class="section-title">Sponsors underwrite the season.</h2>
           </div>
-          <div class="subteam-card">
-            <h3>Programming</h3>
-            <p>Writes the code that brings the robot to life — autonomous routines and driver controls.</p>
+          <div>
+            <p class="section-prose">Event registration, raw stock, the control system, tooling, and travel for a full roster come to five figures a year. Nearly all of it is funded by companies and individuals who decide this program is worth supporting.</p>
           </div>
-          <div class="subteam-card">
-            <h3>Electrical</h3>
-            <p>Wires and maintains the robot's electrical systems, sensors, and controls.</p>
+        </div>
+
+        <div class="tier-table">
+          <div class="tier-row">
+            <div class="tier-name is-brass">Title</div>
+            <div class="tier-amount">$5,000+</div>
+            <div class="tier-benefits">Primary logo on the robot and pit · named in every competition broadcast · team visit and robot demonstration at your site · logo on team shirts and this site</div>
           </div>
-          <div class="subteam-card">
-            <h3>Outreach &amp; Business</h3>
-            <p>Manages sponsorships, community events, and tells the story of our team.</p>
+          <div class="tier-row">
+            <div class="tier-name">Gold</div>
+            <div class="tier-amount">$2,500</div>
+            <div class="tier-benefits">Logo on the robot and pit banner · logo on team shirts and this site · end-of-season report with competition results</div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-name">Silver</div>
+            <div class="tier-amount">$1,000</div>
+            <div class="tier-benefits">Logo on the pit banner and this site · recognition on team social channels</div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-name">Supporter</div>
+            <div class="tier-amount">$500</div>
+            <div class="tier-benefits">Name on the pit banner and this site · thank-you in the season report</div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-name">In kind</div>
+            <div class="tier-amount is-muted">Materials</div>
+            <div class="tier-benefits">Machine time, raw stock, electronics, software licenses, or an engineer who can mentor one evening a week during build season</div>
+          </div>
+        </div>
+
+        <div class="btn-row" style="margin-top: 40px;">
+          <a href="sponsors.html" class="btn">Full sponsorship information</a>
+          <a href="mailto:team41@example.com" class="link-secondary">Request the sponsor packet</a>
+        </div>
+
+        <div class="mt-64" style="border-top: 1px solid var(--rule-strong); padding-top: 28px;">
+          <div class="sponsor-wall-label">Current supporters</div>
+          <div class="sponsor-wall-grid">
+            <a class="sponsor-wall-cell" href="https://www.nokia.com/bell-labs/" target="_blank" rel="noopener"><img src="images/sponsors/nokia-bell-labs.png" alt="Nokia Bell Labs" /></a>
+            <a class="sponsor-wall-cell" href="https://www.kla.foundation/" target="_blank" rel="noopener"><img src="images/sponsors/kla-foundation.png" alt="KLA Foundation" /></a>
+            <a class="sponsor-wall-cell" href="https://www.knottsco.com/" target="_blank" rel="noopener"><img src="images/sponsors/the-knotts-company.jpg" alt="The Knotts Company" /></a>
+            <a class="sponsor-wall-cell" href="https://petillo.com/" target="_blank" rel="noopener"><img src="images/sponsors/petillo-companies.jpg" alt="PETIllo Companies" /></a>
+            <a class="sponsor-wall-cell" href="https://www.picut.com/" target="_blank" rel="noopener"><img src="images/sponsors/picut-manufacturing.jpg" alt="PICut Manufacturing" /></a>
+          </div>
+          <div class="sponsor-wall-grid is-circles">
+            <a class="sponsor-wall-cell" href="https://home.army.mil/picatinny/" target="_blank" rel="noopener"><img src="images/sponsors/picatinny-stem.png" alt="Picatinny STEM" /></a>
+            <a class="sponsor-wall-cell" href="https://warrenlionsclub.org/" target="_blank" rel="noopener"><img src="images/sponsors/warren-lions-club.png" alt="Warren Lions Club" /></a>
+            <a class="sponsor-wall-cell" href="https://www.ghaasfoundation.org/" target="_blank" rel="noopener"><img src="images/sponsors/gene-haas-foundation.png" alt="Gene Haas Foundation" /></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="sponsors" class="sponsors">
-      <div class="container">
-        <h2>Our Sponsors</h2>
-        <p class="section-subtitle">
-          Team 41 wouldn't be possible without the generous support of our sponsors.
-          Interested in supporting us? <a href="#contact">Get in touch</a>.
-        </p>
-        <div class="sponsor-placeholder-grid">
-          <div class="sponsor-placeholder">Sponsor Logo</div>
-          <div class="sponsor-placeholder">Sponsor Logo</div>
-          <div class="sponsor-placeholder">Sponsor Logo</div>
-          <div class="sponsor-placeholder">Sponsor Logo</div>
+    <section id="subteams">
+      <div class="col">
+        <div class="section-head" style="margin-bottom: 44px;">
+          <div>
+            <div class="section-mark">III · Disciplines</div>
+            <h2 class="section-title">Five subteams, one machine.</h2>
+          </div>
+          <div>
+            <p class="section-prose">Students specialize the way an engineering firm does. Each subteam is led by a student and backed by mentors working in that field.</p>
+          </div>
+        </div>
+        <div class="row-list">
+          <div class="row-list-item">
+            <h3 class="row-list-name">Design</h3>
+            <div>
+              <p class="row-list-desc">Turns the rulebook into a plan: prototypes, full-robot CAD, and the drawings the build runs from.</p>
+              <div class="row-list-tags">CAD · PROTOTYPING · DRAWINGS</div>
+            </div>
+          </div>
+          <div class="row-list-item">
+            <h3 class="row-list-name">Mechanical</h3>
+            <div>
+              <p class="row-list-desc">Builds what Design draws — drivetrain, manipulators, and structure — on mills, lathes, and a lot of iteration.</p>
+              <div class="row-list-tags">MACHINING · FABRICATION · ASSEMBLY</div>
+            </div>
+          </div>
+          <div class="row-list-item">
+            <h3 class="row-list-name">Electrical</h3>
+            <div>
+              <p class="row-list-desc">Power distribution, motor controllers, sensors, and the pneumatics that have to survive a match.</p>
+              <div class="row-list-tags">WIRING · SENSORS · PNEUMATICS</div>
+            </div>
+          </div>
+          <div class="row-list-item">
+            <h3 class="row-list-name">Programming</h3>
+            <div>
+              <p class="row-list-desc">Autonomous routines, driver controls, and vision. Java on the roboRIO, version-controlled like production software.</p>
+              <div class="row-list-tags">JAVA · CONTROLS · VISION</div>
+            </div>
+          </div>
+          <div class="row-list-item">
+            <h3 class="row-list-name">Non-Tech</h3>
+            <div>
+              <p class="row-list-desc">The budget, sponsor relationships, media, and the community programs that carry the team's name.</p>
+              <div class="row-list-tags">FINANCE · MEDIA · OUTREACH</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
-      <div class="container contact-inner">
-        <h2>Get In Touch</h2>
-        <p class="section-subtitle">
-          Interested in joining, mentoring, or sponsoring Team 41? We'd love to hear from you.
-        </p>
-        <a href="mailto:team41@example.com" class="btn btn-primary">team41@example.com</a>
+    <section id="season" class="section-alt">
+      <div class="col">
+        <div class="section-head" style="margin-bottom: 48px;">
+          <div>
+            <div class="section-mark">IV · The season</div>
+            <h2 class="section-title">One game, six weeks, one robot.</h2>
+          </div>
+          <div>
+            <p class="section-prose">FIRST Robotics Competition runs on a fixed calendar. For anyone who has not seen a season up close, this is the shape of what sponsorship pays for.</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item is-active">
+            <div class="timeline-period">JANUARY</div>
+            <h3 class="timeline-title">Kickoff</h3>
+            <p class="timeline-desc">FIRST releases a new game to every team on the same morning. No one sees it in advance.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-period">SIX WEEKS</div>
+            <h3 class="timeline-title">Design and build</h3>
+            <p class="timeline-desc">Students prototype, CAD, machine, wire, and program a 120-pound robot from raw stock and a control system.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-period">MARCH — APRIL</div>
+            <h3 class="timeline-title">Competition</h3>
+            <p class="timeline-desc">Regional events pair three-team alliances against each other. Strong seasons advance to the World Championship.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-period">YEAR ROUND</div>
+            <h3 class="timeline-title">Training and outreach</h3>
+            <p class="timeline-desc">Training new members, mentoring younger teams, and running workshops across the community.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="archive">
+      <div class="col section-head align-end">
+        <div>
+          <div class="section-mark">V · Archive</div>
+          <h2 class="section-title" style="margin-bottom: 14px;">Twenty-eight robots, one per season.</h2>
+          <p class="section-prose">Every machine the team has fielded, the game it played, and how the season finished.</p>
+        </div>
+        <div>
+          <a href="robots.html" class="link-brass" style="font-size: 0.96rem;">Browse past robots</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="col cta-split">
+        <div>
+          <h2 class="cta-title">Fund a season. Put your name on the robot.</h2>
+          <p class="cta-body">Support starts at $500 and runs through title level, recognized from January kickoff through the final competition weekend.</p>
+          <div class="btn-row">
+            <a href="sponsors.html" class="btn">Sponsorship information</a>
+            <a href="mailto:team41@example.com" class="link-secondary">team41@example.com</a>
+          </div>
+        </div>
+        <div class="cta-aside">
+          <div class="cta-aside-label">Also welcome</div>
+          <ul class="cta-aside-list">
+            <li>Mentors — one evening a week during build season</li>
+            <li>In-kind materials, machine time, and software</li>
+            <li>Employer matching-gift programs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="parents">
+      <div class="col section-head">
+        <div>
+          <div class="section-mark">VI · For families</div>
+          <h2 class="section-title" style="margin-bottom: 16px;">The questions families ask first.</h2>
+          <p class="section-prose" style="margin-bottom: 24px;">If yours is not here, write to us. We would rather answer it directly than have you guess.</p>
+          <div class="btn-row">
+            <a href="parents-faq.html" class="link-brass">Full parents FAQ</a>
+            <a href="mailto:team41@example.com" class="link-secondary">Email the team</a>
+          </div>
+        </div>
+        <div id="home-faq" class="faq-list"></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> FRC Team 41. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-        <a href="#">GitHub</a>
+    <div class="col footer-inner">
+      <div>
+        <div class="footer-brand">FIRST Robotics Team 41</div>
+        <p class="footer-copyright">© <span data-year></span> FRC Team 41. All rights reserved.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Pages</div>
+        <a href="team.html" class="footer-link">The Team</a>
+        <a href="sponsors.html" class="footer-link">Sponsorship</a>
+        <a href="robots.html" class="footer-link">Past Robots</a>
+        <a href="parents-faq.html" class="footer-link">Parents FAQ</a>
+        <a href="wheat.html" class="footer-link">WHEAT</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Contact</div>
+        <a href="mailto:team41@example.com" class="footer-link">team41@example.com</a>
+        <span class="footer-muted">Add your shop address</span>
+        <span class="footer-muted">Add meeting times</span>
       </div>
     </div>
   </footer>
