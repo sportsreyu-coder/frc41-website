@@ -42,12 +42,12 @@ const FAQS = [
 // Season-by-season robot archive. Extend this back through 1997 as records are found.
 // Photos and records sourced from The Blue Alliance (thebluealliance.com/team/41).
 const ROBOTS = [
-  { season: "2025", game: "REEFSCAPE", note: "Add this robot’s name and how the season finished." },
+  { season: "2025", game: "REEFSCAPE", note: "Robot: Siren. Went 13-13-1 in the FIRST Mid-Atlantic District, ranked #107, and won the Gracious Professionalism Award at Montgomery.", photo: "images/robots/2025-reveal.jpg" },
   { season: "2024", game: "CRESCENDO", note: "Robot: PLATO. Went 13-19-0 in the FIRST Mid-Atlantic District, ranked #77.", photo: "images/robots/2024.jpg" },
   { season: "2023", game: "CHARGED UP", note: "Robot: Wim. Went 8-14-2 and won the Innovation in Control Award twice.", photo: "images/robots/2023.jpg" },
   { season: "2022", game: "RAPID REACT", note: "Went 41-23-1, ranked #10 in the FIRST Mid-Atlantic District, and reached District Championship. District Event Finalist and Excellence in Engineering Award at Bridgewater-Raritan.", photo: "images/robots/2022.jpg" },
-  { season: "2020–21", game: "INFINITE RECHARGE", note: "The season cut short by the pandemic. Add your notes." },
   { season: "2019", game: "DESTINATION: DEEP SPACE", note: "Went 23-17-0, ranked #48 in the FIRST Mid-Atlantic District. Captained an alliance to the quarterfinals at Mount Olive.", photo: "images/robots/2019.jpg" },
+  { season: "2016", game: "STRONGHOLD", note: "Went 39-21-1 across the season. Won the Montgomery District and the Carson Division at the World Championship, advancing to the Einstein Field." },
 ];
 
 function renderFaq(container, faqs, { openFirst = true } = {}) {
