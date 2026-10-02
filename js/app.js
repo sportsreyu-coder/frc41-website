@@ -47,7 +47,7 @@ const ROBOTS = [
   { season: "2023", game: "CHARGED UP", note: "Robot: Wim. Went 8-14-2 and won the Innovation in Control Award twice.", photo: "images/robots/2023.jpg" },
   { season: "2022", game: "RAPID REACT", note: "Went 41-23-1, ranked #10 in the FIRST Mid-Atlantic District, and reached District Championship. District Event Finalist and Excellence in Engineering Award at Bridgewater-Raritan.", photo: "images/robots/2022.jpg" },
   { season: "2019", game: "DESTINATION: DEEP SPACE", note: "Went 23-17-0, ranked #48 in the FIRST Mid-Atlantic District. Captained an alliance to the quarterfinals at Mount Olive.", photo: "images/robots/2019.jpg" },
-  { season: "2016", game: "STRONGHOLD", note: "Went 39-21-1 across the season. Won the Montgomery District and the Carson Division at the World Championship, advancing to the Einstein Field." },
+  { season: "2016", game: "STRONGHOLD", note: "Went 39-21-1 across the season. Won the Montgomery District and the Carson Division at the World Championship, advancing to the Einstein Field.", photo: "images/robots/2016.jpg" },
 ];
 
 function renderFaq(container, faqs, { openFirst = true } = {}) {
